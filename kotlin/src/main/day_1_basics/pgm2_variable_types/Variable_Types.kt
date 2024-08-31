@@ -23,7 +23,7 @@ fun main() {
     var name = "Kotlin"
 
     // Printing the initial values of 'name' and 'age' to the console.
-    println("Before - Name: $name, Age: $age")
+    println("Before assigning values - Name......:  $name, Age: $age")
 
     // Modifying the value of 'age' variable to 6.
     age = 6
@@ -32,5 +32,5 @@ fun main() {
     name = "Android"
 
     // Printing the modified values of 'name' and 'age' to the console.
-    println("After - Name: $name, Age: $age")
+    println("After assigning new values - Name...: $name, Age: $age")
 }
