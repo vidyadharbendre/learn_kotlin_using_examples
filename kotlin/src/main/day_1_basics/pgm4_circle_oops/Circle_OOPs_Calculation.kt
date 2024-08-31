@@ -1,4 +1,14 @@
-package pgm4_circle_oops
+package pgm4_circle_oops // Package declaration for organizing the code
+
+/*
+ * Author      : Vidyadhar Bendre
+ * Date        : 31-August-2024
+ * Significance: This program demonstrates the use of Object-Oriented Programming (OOP) in Kotlin
+ *               to model a circle with properties and methods. It includes a `Circle` class with
+ *               methods to calculate the area and perimeter, update the radius, and print the
+ *               circle's parameters. This program highlights the encapsulation of data and functionality
+ *               within a class, showcasing the OOP principles in action.
+ */
 
 // Circle class to represent a circle with properties and methods
 class Circle(private var radius: Int) {
@@ -41,3 +51,16 @@ fun main() {
     circle.updateRadius(10)
     circle.printCircleParameters()
 }
+
+/*
+
+The output of the above program is shown as below:
+
+Radius of the circle is    : 1
+Area of the circle         : 3.14
+Perimeter of the circle is : 6.28
+Radius of the circle is    : 10
+Area of the circle         : 314.0
+Perimeter of the circle is : 62.800000000000004
+
+ */

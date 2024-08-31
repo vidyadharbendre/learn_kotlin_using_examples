@@ -34,3 +34,9 @@ fun main() {
     // Printing the modified values of 'name' and 'age' to the console.
     println("After assigning new values - Name...: $name, Age: $age")
 }
+
+/*
+The output of the above program is shown as below:
+Before assigning values - Name......:  Kotlin, Age: 5
+After assigning new values - Name...: Android, Age: 6
+ */
