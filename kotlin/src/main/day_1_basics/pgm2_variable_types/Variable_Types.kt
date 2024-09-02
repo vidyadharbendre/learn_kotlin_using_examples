@@ -1,6 +1,10 @@
+// Declaring the package name for this file, which helps organize the code into different namespaces.
+package pgm2_variable_types
+
 /*
- * Author   : Vidyadhar Bendre
- * Date     : 31st August, 2024
+ * Program   : VariableTypes.kt
+ * Author    : Vidyadhar Bendre
+ * Date      : 31st August, 2024
  *
  * Program Significance:
  * This Kotlin program demonstrates the use of variables, variable reassignment, and basic
@@ -8,11 +12,12 @@
  * and modified, showcasing Kotlin's type inference capabilities. The program initially
  * assigns values to variables and then reassigns new values, highlighting Kotlin's
  * mutability with the 'var' keyword.
+ *
+ * Note:
+ * For those without access to a laptop or computer, you can run this code online using the
+ * Kotlin Playground at https://play.kotlinlang.org/. Simply copy and paste the code into
+ * the editor and click 'Run' to see the output.
  */
-
-
-// Declaring the package name for this file, which helps organize the code into different namespaces.
-package pgm2_variable_types
 
 // Main function - the entry point of the Kotlin program where execution begins.
 fun main() {
@@ -36,7 +41,7 @@ fun main() {
 }
 
 /*
-The output of the above program is shown as below:
-Before assigning values - Name......:  Kotlin, Age: 5
-After assigning new values - Name...: Android, Age: 6
+ * Output of the program:
+ * Before assigning values - Name......:  Kotlin, Age: 5
+ * After assigning new values - Name...: Android, Age: 6
  */
