@@ -3,7 +3,7 @@ package pgm9_repeat_loop
 /*
  * Program   : RepeatLoopExample.kt
  * Author    : Vidyadhar Bendre
- * Date      : 3nd September, 2024
+ * Date      : 3rd September, 2024
  *
  * Program Significance:
  * This program demonstrates the use of the `repeat` function in Kotlin, which allows

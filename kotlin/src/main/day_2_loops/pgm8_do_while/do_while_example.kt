@@ -3,7 +3,7 @@ package pgm8_do_while
 /*
  * Program   : DoWhileLoopExample.kt
  * Author    : Vidyadhar Bendre
- * Date      : 3nd September, 2024
+ * Date      : 3rd September, 2024
  *
  * Program Significance:
  * This program demonstrates the use of a `do-while` loop in Kotlin. It decrements the number
