@@ -27,3 +27,8 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+
+.idea/
+learn_kotlin_using_examples.iml
+out/
