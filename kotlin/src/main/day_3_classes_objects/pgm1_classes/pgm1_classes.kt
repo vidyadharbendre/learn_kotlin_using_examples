@@ -1,7 +1,7 @@
 package pgm1_classes
 
 /*
- * Program     : SimpleClassDemo.kt
+ * Program     : pgm1_classes.kt
  * Author      : Vidyadhar Bendre
  * Date        : 8-September-2024
  *
