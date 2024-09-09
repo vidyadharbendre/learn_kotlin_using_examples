@@ -28,14 +28,14 @@ class Box(val length: Int, val width: Int = 20, val height: Int = 40) {
 fun main() {
     // Creating instances of Box with different combinations of parameters
 
-//    // Example 1: Creating a Box with all parameters specified
-//    var box1: Box
-//    box1 = Box(100, 20, 40)
-//    box1.displayDimensions() // Output: Length: 100, Width: 20, Height: 40
-
     // Example 1: Creating a Box with all parameters specified
-    val box1 = Box(100, 20, 40)
+    var box1: Box
+    box1 = Box(100, 20, 40)
     box1.displayDimensions() // Output: Length: 100, Width: 20, Height: 40
+
+//    // Example 1: Creating a Box with all parameters specified
+//    val box1 = Box(100, 20, 40)
+//    box1.displayDimensions() // Output: Length: 100, Width: 20, Height: 40
 
 
     // Example 2: Creating a Box with only the length specified (default values are used for width and height)
