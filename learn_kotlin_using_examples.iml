@@ -3,10 +3,10 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/kotlin/src/main/day4_constructors" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/kotlin/src/main/day_1_basics" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/kotlin/src/main/day_2_loops" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/kotlin/src/main/day_3_classes_objects" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kotlin/src/main/day_4_constructors" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

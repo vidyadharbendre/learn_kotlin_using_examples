@@ -18,7 +18,7 @@ package pgm2_single_parameter // Package declaration for organizing the code
  */
 
 // Class with a single parameter
-class B(val x: Int) {
+class PrimaryConstructor(val x: Int) {
     // Property x is initialized via the constructor parameter
     // The primary constructor takes a parameter `x` and assigns it to the property `x`.
 }
@@ -27,15 +27,15 @@ class B(val x: Int) {
 fun main() {
     // Declare the reference variable for Class B
     // The variable `bb` of type `B` is declared but not yet initialized.
-    var bb: B
+    var bb: PrimaryConstructor
     // Initialize the reference variable `bb`
     // An instance of `B` is created with the parameter value `12` and assigned to `bb`.
-    bb = B(12)
-
+    bb = PrimaryConstructor(12)
+//    bb = PrimaryConstructor(13)
 
     // Creating an instance of Class B with parameter value 21 directly in a single line
     // Here, `cc` is created and initialized with `x` set to 21.
-    val cc = B(21)
+    val cc = PrimaryConstructor(21)
 
 
 
@@ -52,20 +52,20 @@ fun main() {
  * 21
  *
  * Explanation:
- * The program defines a class `B` with a single property `x` initialized via a constructor parameter.
- * An instance of `B` is created using `var`, first declaring `bb` and then initializing it with the value `12` for `x`.
+ * The program defines a class `PrimaryConstructor` with a single property `x` initialized via a constructor parameter.
+ * An instance of `PrimaryConstructor` is created using `var`, first declaring `bb` and then initializing it with the value `12` for `x`.
  * Another instance, `cc`, is created in a single line with the value `21` for `x`.
  * The values of the property `x` for both instances are printed.
  *
  * Detailed Explanation:
  * 1. **Class Declaration**:
- *    - The class `B` has a primary constructor with a single parameter `x` of type `Int`.
+ *    - The class `PrimaryConstructor` has a primary constructor with a single parameter `x` of type `Int`.
  *    - The parameter `x` is automatically assigned to a property `x` because it is prefixed with `val`.
  *
  * 2. **Object Creation**:
- *    - `var bb: B` declares a reference variable of type `B`.
- *    - `bb = B(12)` creates a new instance of `B` with the value `12` for the property `x` and assigns it to `bb`.
- *    - `val cc = B(21)` creates and initializes another instance of `B` with the value `21` for `x` in a single line.
+ *    - `var bb: PrimaryConstructor` declares a reference variable of type `B`.
+ *    - `bb = PrimaryConstructor(12)` creates a new instance of `PrimaryConstructor` with the value `12` for the property `x` and assigns it to `bb`.
+ *    - `val cc = PrimaryConstructor(21)` creates and initializes another instance of `PrimaryConstructor` with the value `21` for `x` in a single line.
  *
  * 3. **Usage**:
  *    - `println(bb.x)` accesses the property `x` of the object `bb` and prints its value, which is `12`.
