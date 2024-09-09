@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/kotlin/src/main/day_3_classes_objects/pgm5_sealed_classes/pgm1_sealed_class_success.kt" />
+      <file url="file://$PROJECT_DIR$/kotlin/src/main/day_3_classes_objects/pgm5_sealed_classes/pgm2_sealed_class.kt" />
+      <file url="file://$PROJECT_DIR$/kotlin/src/main/day_3_classes_objects/pgm5_sealed_classes/pgm5_sealed_classes.kt" />
+    </excludeFromCompile>
+  </component>
+</project>
