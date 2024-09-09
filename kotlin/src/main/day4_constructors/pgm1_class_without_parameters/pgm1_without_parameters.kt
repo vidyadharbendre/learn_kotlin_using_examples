@@ -3,7 +3,7 @@ package pgm1_class_without_parameters
 /*
  * Program     : pgm1_without_parameters.kt
  * Author      : Vidyadhar Bendre
- * Date        : 8-September-2024
+ * Date        : 9-September-2024
  *
  * Significance:
  * This program demonstrates the use of a simple class without parameters in Kotlin.
