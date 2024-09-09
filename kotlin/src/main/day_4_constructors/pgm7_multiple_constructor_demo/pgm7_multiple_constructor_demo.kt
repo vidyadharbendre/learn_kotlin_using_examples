@@ -28,12 +28,15 @@ class Circle(val radius: Double) {
     constructor(diameter: Int) : this(diameter / 2.0) {
         // Print message when using the diameter constructor
         println("In diameter constructor")
+        println("Diameter...: $diameter")
     }
 
     // Init block: Executes after the primary constructor
     init {
         // Calculate and print the area of the circle
-        println("Area: ${Math.PI * radius * radius}")
+
+        println("radius.....: $radius")
+        println("Area.......: ${Math.PI * radius * radius}")
     }
 }
 
