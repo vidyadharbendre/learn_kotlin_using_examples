@@ -35,9 +35,9 @@ fun main() {
 /*
  * Output of the program:
  *
- * Instance of A created successfully.
+ * Instance of pgm1_without_parameters created successfully.
  *
  * Explanation:
- * The program defines a class `A` with no properties or methods.
- * An instance of `A` is created in the `main()` function, and a message is printed to indicate successful creation.
+ * The program defines a class `pgm1_without_parameters` with no properties or methods.
+ * An instance of `pgm1_without_parameters` is created in the `main()` function, and a message is printed to indicate successful creation.
  */
