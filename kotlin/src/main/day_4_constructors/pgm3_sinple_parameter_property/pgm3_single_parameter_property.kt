@@ -23,7 +23,7 @@ package pgm3_simple_parameter_property // Package declaration for organizing the
 class B(x: Int) {
     init {
         // The parameter `x` is only accessible within the constructor scope
-        println("x inside constructor B: $x") // `x` is accessible here within the init block
+        println("x inside constructor: $x") // `x` is accessible here within the init block
     }
 
     // Uncommenting the following line will cause an error because `x` is not a class property
@@ -34,13 +34,13 @@ class B(x: Int) {
 class C(val x: Int) {
     init {
         // `x` can be used inside the constructor, just like in Class B
-        println("x inside constructor C: $x") // `x` is accessible here within the init block
-        println("writing inside constructor C")
+        println("x inside constructor: $x") // `x` is accessible here within the init block
+        println("writing inside constructor")
     }
 
     // A method that can access the property `x` since it's a class property
     fun printX() {
-        println("x outside the constructor C: $x") // `x` is accessible outside the constructor
+        println("x outside the constructor: $x") // `x` is accessible outside the constructor
     }
 }
 
@@ -82,5 +82,14 @@ fun main() {
  *    - `x` is not stored as a class property, so attempting to access it elsewhere in the class will result in a compiler error.
  *
  * 3. **Class C Declaration**:
- *    - The class `C` h
-*/
+ *    - The class `C` has a primary constructor with a parameter `x` marked as `val`.
+ *    - This makes `x` a class property that is accessible throughout the class.
+ *
+ * 4. **Constructor and Method Usage in Class C**:
+ *    - Inside the `init` block, `x` is accessible, similar to Class B.
+ *    - Since `x` is a property, it is also accessible in other methods, such as `printX()`.
+ *
+ * 5. **Usage Context**:
+ *    - Use Class B’s approach when the constructor parameter is needed only temporarily during object creation.
+ *    - Use Class C’s approach when you need to retain the parameter as a property for later use in the class.
+ */
