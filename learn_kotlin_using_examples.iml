@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/kotlin/src/main/day_4_constructors" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/kotlin/src/main/day_5_age_calculation" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/kotlin/src/main/day_6_area_perimeter_calculation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kotlin/src/main/day_7_conditional_check" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
