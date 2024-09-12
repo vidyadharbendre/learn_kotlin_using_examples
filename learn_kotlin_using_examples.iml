@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/kotlin/src/main/day_2_loops" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/kotlin/src/main/day_3_classes_objects" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/kotlin/src/main/day_4_constructors" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kotlin/src/main/day_5_age_calculation" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
